@@ -55,7 +55,7 @@ Mr. Joe sells clothing, ornaments, and related merchandise across multiple U.S. 
 * Strong growth in Q4
 
 **2024 (YTD)**
-
+![alt text](/MBILI.png)
 * Revenue: $721.07K
 * Orders: 6,242
 * Shipping: $92K
