@@ -78,9 +78,9 @@ Sales are not evenly distributed across the year. Certain months perform much be
 ### 5.1 Revenue by Age Group
 
 Across both years:
-- **Young customers** generate the highest revenue
-- **Middle-aged customers** follow closely
-- **Older customers** contribute the least revenue
+- **Young customers(18-24)** generate the highest revenue
+- **Middle-aged customers(25-30)** follow closely
+- **Older customers(31-35)** contribute the least revenue
 
 **Insight:**  
 The business mainly depends on younger customers. Marketing and product design should focus more on this group while still maintaining options for other age groups.
