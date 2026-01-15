@@ -1,162 +1,187 @@
-# Business Analytics Report: Mr. Joe's Merchandise Business
+# Business Analysis Report  
+## Mr. Joe’s Merchandise Business (2023–2024)
 
-### Data-Driven Analysis & Strategic Recommendations
+---
+![alt text](/2024.png)
+## 1. Introduction
 
-![alt text](/MOJA.png)
+Mr. Joe owns an existing merchandise business that sells products such as clothing and ornaments.  
+The business has collected sales data and customer information over time, but this data has not been fully used to guide decisions.
+
+Our role as a Business Analyst team is to:
+- Study the available data
+- Identify sales trends and customer behavior
+- Understand how revenue and costs change over time
+- Propose a simple system that helps Mr. Joe make better decisions using data
 
 ---
 
-## 📊 Introduction
+## 2. Background Information
 
-This report analyzes Mr. Joe’s merchandise business (2023–2024), focusing on sales performance, customer demographics, and operational efficiency. The goal was to transform raw sales data into actionable insights using Power BI.
+The business operates across different locations and serves both local and international customers.  
+Sales data is available for two years:
+- **2023**
+- **2024**
 
-The analysis highlights key trends, exposes performance gaps—especially the Q4 2024 revenue collapse—and delivers strategic, data-backed recommendations to improve growth, targeting, and operations.
-
----
-
-## 🎯 Background
-
-**Business Context**
-Mr. Joe sells clothing, ornaments, and related merchandise across multiple U.S. locations with international shipping. Despite available data, decisions were largely reactive due to the lack of structured analytics.
-
-**Key Challenges**
-
-* Poor visibility into sales trends and seasonality
-* Limited customer demographic insights
-* Revenue decline in late 2024 with unclear causes
-* Heavy dependence on a few products and regions
-
-**Project Objectives**
-
-* Identify revenue drivers and bottlenecks
-* Analyze customer segments and buying behavior
-* Detect seasonal and geographic trends
-* Deliver actionable growth recommendations
+The dashboard includes information on:
+- Total revenue and orders
+- Monthly sales trends
+- Customer age groups
+- Product categories
+- Locations of orders
+- International shipping
+- Shipping charges
 
 ---
 
-## 🛠️ Tools I Used
+## 3. Overview of Business Performance
 
-* **Power BI Desktop** – Dashboard creation and interactive reporting
-* **DAX** – Custom measures for YoY analysis, segmentation, and time intelligence
-* **Power Query** – Data cleaning, transformation, and standardization
+### 3.1 Year 2023 Summary
+![alt text](/2023.png)
 
----
+- Total Revenue: **135.39K**
+- Total Orders: **1.152K**
+- Total Sales: **135K**
+- Total Shipping Charges: **16K**
 
-## 🔍 The Analysis
-
-### Performance Overview
-
-**2023**
-
-* Revenue: $135.39K
-* Orders: 1,152
-* Shipping: $16K
-* Strong growth in Q4
-
-**2024 (YTD)**
-![alt text](/MBILI.png)
-* Revenue: $721.07K
-* Orders: 6,242
-* Shipping: $92K
-* Sharp revenue collapse in Q4
+Sales activity in 2023 was moderate and mainly concentrated in the last two months of the year, with a visible increase from November to December.
 
 ---
 
-### Key Findings
+### 3.2 Year 2024 Summary
 
-#### 1. Revenue Collapse in Q4 2024
+- Total Revenue: **721.07K**
+- Total Orders: **6.242K**
+- Total Sales: **721K**
+- Total Shipping Charges: **92K**
 
-Revenue fell from ~$40–50M monthly to near zero by November—indicating a critical business failure requiring urgent investigation.
-
-**Possible Causes:** supply chain issues, competition, demand shifts, or operational breakdowns.
-
-#### 2. Youth-Dominated Customer Base
-
-Customers aged **18–24** are the top revenue contributors, followed by 25–30 and 31–35 segments—creating both opportunity and volatility.
-
-#### 3. Geographic Concentration
-
-Revenue is concentrated in a few major cities, with New Jersey emerging as the top market in 2024, increasing regional dependency risk.
-
-#### 4. Product Concentration
-
-* Clothing accounts for ~85% of revenue
-* Ornaments and other products remain underutilized
-
-#### 5. International Shipping Costs
-
-International orders remain stable (~30%), but shipping costs increased by **475%**, reducing margins.
+Compared to 2023, 2024 shows **strong growth** in revenue, number of orders, and shipping charges.  
+This indicates that the business expanded significantly in 2024.
 
 ---
 
-## 💡 Key Lessons
+## 4. Revenue Trends Over Time
 
-* Strong growth can mask underlying risk
-* Over-reliance on youth customers and clothing increases volatility
-* Aggregate metrics hide critical time-based failures
-* Real-time monitoring is essential in retail
+### 4.1 Monthly Revenue Pattern
 
----
+- In **2023**, revenue increased from November to December, showing strong end-of-year demand.
+- In **2024**, revenue remained relatively high for most months, with noticeable ups and downs.
+- There is a sharp drop in November 2024, which may indicate missing data, seasonal slowdown, or operational challenges.
 
-## ⚠️ Key Performance Challenges
-
-1. **Q4 2024 Revenue Collapse** – CRITICAL
-2. **Overdependence on Clothing** – HIGH
-3. **Geographic Revenue Concentration** – MEDIUM
-4. **Youth Market Dependency** – MEDIUM
-5. **Rising Shipping Costs** – MEDIUM
-6. **Limited Product Diversification** – MEDIUM
+**Insight:**  
+Sales are not evenly distributed across the year. Certain months perform much better than others, showing clear seasonal patterns.
 
 ---
 
-## ✅ Recommendations & Solutions
+## 5. Customer Behavior Analysis
 
-### Immediate (0–30 Days)
+### 5.1 Revenue by Age Group
 
-* Conduct forensic analysis of Q4 revenue decline
-* Launch flash promotions and win-back campaigns
-* Review inventory, fulfillment, and customer complaints
+Across both years:
+- **Young customers** generate the highest revenue
+- **Middle-aged customers** follow closely
+- **Older customers** contribute the least revenue
 
-### Short-Term (1–6 Months)
-
-* Expand ornaments and accessories
-* Reduce clothing dependency to ~70%
-* Enter underperforming but high-potential cities
-* Renegotiate shipping contracts
-
-### Long-Term (6–12 Months)
-
-* Target older age segments (31–35)
-* Improve retention and CLV through loyalty programs
-* Expand analytics with real-time monitoring and forecasting
+**Insight:**  
+The business mainly depends on younger customers. Marketing and product design should focus more on this group while still maintaining options for other age groups.
 
 ---
 
-## 📈 Performance Monitoring Framework
+### 5.2 International vs Local Orders
 
-**KPIs**
+- Most orders are **local**
+- International orders make up a smaller portion of total orders
 
-* Revenue growth, category mix, CLV, CAC
-* Shipping cost % of revenue
-* Inventory turnover and return rates
-
-**Review Cadence**
-
-* Daily: Sales & inventory alerts
-* Weekly: Marketing and acquisition
-* Monthly: Financial and customer analysis
-* Quarterly: Strategic performance review
+**Insight:**  
+Local customers are the main source of sales.  
+International customers exist and could be a future growth opportunity, but they are currently not the main focus.
 
 ---
 
-## 🎯 Conclusion
+## 6. Product and Sales Patterns
 
-This analysis reveals a business with strong market demand but significant structural risks. While growth through mid-2024 was strong, the Q4 collapse highlights the need for diversification, proactive monitoring, and operational optimization.
+### 6.1 Revenue by Product Category
 
-The Power BI dashboard enables Mr. Joe to shift from reactive to data-driven decision-making and provides a clear roadmap for recovery and sustainable growth.
+In both years:
+- **Clothing** generates the highest revenue
+- **Ornaments** contribute much less
+- **Other products** have the lowest sales
+
+**Insight:**  
+Clothing is the core product of the business and drives most of the income.
 
 ---
+
+### 6.2 Shipping Charges by Product Category
+
+- Clothing has the **highest shipping charges**
+- Ornaments have moderate shipping costs
+- Other products have the lowest shipping costs
+
+**Insight:**  
+Products that sell more also cost more to ship. Shipping costs are closely linked to sales volume and product type.
+
+---
+
+## 7. Location-Based Analysis
+
+### 7.1 Revenue by Location
+
+- In **2023**, top locations include New York, Portland, and San Francisco
+- In **2024**, cities such as New Jersey, Sacramento, and San Francisco perform strongly
+
+**Insight:**  
+Sales are concentrated in specific cities. These locations represent strong markets and should be prioritized for marketing and distribution.
+
+---
+
+### 7.2 Geographical Distribution of Revenue
+
+- Revenue is spread across different regions
+- Most sales come from a few key locations
+- International sales are visible but limited
+
+**Insight:**  
+The business has a strong regional presence but still has room to grow in other areas.
+
+---
+
+## 8. Key Business Issues Identified
+
+1. Heavy dependence on one product category (clothing)
+2. High shipping costs linked to top-selling products
+3. Seasonal sales fluctuations
+4. Limited use of data to guide decisions
+5. International market not fully explored
+
+---
+
+## 9. Proposed Data-Driven System
+
+We recommend a simple system that:
+- Tracks sales, orders, and shipping costs in one dashboard
+- Shows monthly trends automatically
+- Separates local and international performance
+- Highlights top products and locations clearly
+
+This system will help Mr. Joe:
+- Control shipping costs
+- Focus on high-performing products
+- Plan for high-demand months
+- Make decisions based on data, not guesswork
+
+---
+
+## 10. Conclusion
+
+The analysis shows clear growth from 2023 to 2024, driven mainly by clothing sales and younger customers.  
+Most sales come from local markets, and shipping costs rise as sales increase.
+
+By using a clear and simple data system, Mr. Joe can better understand his business, reduce risks, and plan for future growth with confidence.
+
+---
+
+**End of Report**
 
 ## 🔗 Connect With Me
 
